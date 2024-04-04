@@ -1,0 +1,56 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .title {
+    font-size: 3rem; /* Larger font size */
+    color: #333; /* Dark gray color */
+  }
+  
+  .subtitle {
+    margin-bottom: 20px;
+    font-size: 1.5rem; /* Larger font size */
+    color: #555; /* Medium gray color */
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-link {
+    text-decoration: none;
+  }
+  
+  .login-button,
+  .signup-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem; /* Larger font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button {
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* White color */
+  }
+  
+  .signup-button {
+    background-color: #28a745; /* Green color */
+    color: #fff; /* White color */
+  }
+  
+  .login-button:hover,
+  .signup-button:hover {
+    background-color: #0056b3; /* Darker blue color */
+  }
+  
